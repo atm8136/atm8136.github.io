@@ -10,7 +10,7 @@ Please keep in mind:
 
 - This blog contains my own opinions and do not reflect those of my employer.
 - I am not affiliated with Autodesk in anyway.
-- ANy workflows are presented without any guarantees or warranty.
+- Any workflows are presented without any guarantees or warranty.
 
 
 ### Copyright, Trademarks and Attribution
