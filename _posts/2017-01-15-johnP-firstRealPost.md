@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hello world! (again)
+image: /img/hello_world.jpeg
 tags: [random]
 ---
 
