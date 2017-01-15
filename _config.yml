@@ -23,12 +23,13 @@ description: 60 second tidbits as they relate to software in the AEC industry, w
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+  About: "aboutme"
+  Awesome Links:
+    - EvolveLAB: "http://www.evolvebim.com/"
+    - Rhythm for Dynamo: "https://github.com/sixtysecondrevit/RhythmForDynamo"
+    - Dynamo for Daily Use Within Revit: "https://www.pluralsight.com/courses/dynamo-revit-introduction-daily-use"
     - GitHub Pages: "https://pages.github.com/"
-  Author's home: "http://deanattali.com"
+    - Markdown Tutorial: "http://www.markdowntutorial.com/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
