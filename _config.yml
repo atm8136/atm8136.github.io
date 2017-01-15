@@ -46,8 +46,8 @@ avatar: "/img/avatar-icon.png"
 author:
   name: John Pierson
   email: "sixtysecondrevit@gmail.com"
-  facebook: yourname  # eg. daattali
-  github: sixtysecondrevit
+  facebook: "yourname"  # eg. daattali
+  github: "sixtysecondrevit"
   twitter: @60secondrevit
   reddit: yourname    # eg. daattali
   google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
