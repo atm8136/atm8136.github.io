@@ -24,11 +24,12 @@ description: 60 second tidbits as they relate to software in the AEC industry, w
 # List of links in the navigation bar
 navbar-links:
   About: "aboutme"
-  Awesome Links:
+  Stuff I Do:
     - EvolveLAB: "http://www.evolvebim.com/"
     - Rhythm for Dynamo: "https://github.com/sixtysecondrevit/RhythmForDynamo"
     - Simply Complex Podcast: "http://simplycomplex.sharedcoordinates.com/"
     - Dynamo for Daily Use Within Revit: "https://www.pluralsight.com/courses/dynamo-revit-introduction-daily-use"
+  Helpful Links:
     - GitHub Pages: "https://pages.github.com/"
     - Markdown Tutorial: "http://www.markdowntutorial.com/"
 
