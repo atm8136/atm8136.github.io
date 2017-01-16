@@ -4,7 +4,7 @@ title: About
 subtitle: What is this place?
 ---
 
-My name is John Pierson, I get to do awesome Design Computation and BIM workflows at a place called [EvolveLAB](http://www.evolvebim.com/). This blog is my place to share my Revit and Dynamo findings.
+My name is John Pierson, I get to do **awesome** Computational Design and BIM workflows at a place called [EvolveLAB](http://www.evolvebim.com/). This blog is my place to share my Revit and Dynamo findings.
 
 Please keep in mind:
 
