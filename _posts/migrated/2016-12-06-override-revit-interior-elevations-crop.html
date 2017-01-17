@@ -1,0 +1,17 @@
+---
+layout: post
+title: 'Override #Revit Interior Elevation’s Crop with #DynamoBIM'
+date: '2016-12-06T09:54:00.001-08:00'
+author: JohnP
+tags:
+- DynamoBIM
+- python
+- Revit
+- rhythm
+modified_time: '2016-12-06T09:54:54.296-08:00'
+thumbnail: https://lh3.googleusercontent.com/-CRiaHA-xkMQ/WEb7ZYPYIfI/AAAAAAAABr8/ddLxDe7OVsc/s72-c/Rhythm.OverrideInteriorCrop_thumb%25255B5%25255D.png?imgmax=800
+blogger_id: tag:blogger.com,1999:blog-8275462422374771907.post-2245979341344840126
+blogger_orig_url: http://sixtysecondrevit.blogspot.com/2016/12/override-revit-interior-elevations-crop.html
+---
+
+<p>This is an update to an existing workflow previously discussed here, <a title="http://sixtysecondrevit.blogspot.com/2015/11/framing-interior-elevations-in-revit.html" href="http://sixtysecondrevit.blogspot.com/2015/11/framing-interior-elevations-in-revit.html">http://sixtysecondrevit.blogspot.com/2015/11/framing-interior-elevations-in-revit.html</a></p> <p>Basically, it is faster and more stable!</p> <p><a href="https://lh3.googleusercontent.com/-PBPDimQ7L70/WEb7ZB74WmI/AAAAAAAABr4/BOoG_Q88Zss/s1600-h/Rhythm.OverrideInteriorCrop%25255B4%25255D.png"><img title="Rhythm.OverrideInteriorCrop" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="Rhythm.OverrideInteriorCrop" src="https://lh3.googleusercontent.com/-CRiaHA-xkMQ/WEb7ZYPYIfI/AAAAAAAABr8/ddLxDe7OVsc/Rhythm.OverrideInteriorCrop_thumb%25255B5%25255D.png?imgmax=800" width="240" height="100"></a></p> <p>This node takes an input search string of elevation types (interior), a line weight for all views and a Boolean to run.</p> <p><a href="https://lh3.googleusercontent.com/-Vc_dY7AmuI4/WEb7ZemMw-I/AAAAAAAABsA/2JK-d3xG_fg/s1600-h/overrideCrop%252528revised%252529%25255B9%25255D.gif"><img title="overrideCrop(revised)" style="display: inline" alt="overrideCrop(revised)" src="https://lh3.googleusercontent.com/-UQcrcr9GpHQ/WEb7auXLNUI/AAAAAAAABsE/UYJA4av3QTA/overrideCrop%252528revised%252529_thumb%25255B3%25255D.gif?imgmax=800" width="640" height="396"></a></p> <p>Part of the reason I haven’t updated this in a while is because the workflow was a beast! Initially the node was looking for the elevation marker in every view, seeing if it exists, replacing it and finally committing the override. Now it just finds the crop region as it relates to the interior elevation (investigate the node to see what I finally realized, I won’t reveal it here).</p> <p>So far I have tested this on a healthcare project that had over 350 interior elevations! It did take a moment to run, but it completed the change! </p> <p><a href="https://lh3.googleusercontent.com/-7FEq1kT3YHo/WEb7bI_2doI/AAAAAAAABsI/fFGUXUBhF-w/s1600-h/override%25255B3%25255D.png"><img title="override" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="override" src="https://lh3.googleusercontent.com/-oJUnH8xSz6M/WEb7bQ5NmrI/AAAAAAAABsM/SvO7Lnm6MDo/override_thumb%25255B1%25255D.png?imgmax=800" width="624" height="484"></a></p> <p>Please keep in mind that this completes this process for all interior elevations in the model. I f there is an interest, I will make a specific one that allows the user to choose sheets.</p> <p>Have fun!</p> <p>johnP</p>
