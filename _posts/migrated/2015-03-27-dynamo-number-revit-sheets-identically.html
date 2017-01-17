@@ -1,0 +1,13 @@
+---
+layout: post
+title: Dynamo- Number Revit Sheets Identically
+date: '2015-03-27T07:37:00.001-07:00'
+author: JohnP
+tags: 
+modified_time: '2015-03-27T07:37:33.540-07:00'
+thumbnail: https://img.youtube.com/vi/pQQwFYsOfjY/default.jpg
+blogger_id: tag:blogger.com,1999:blog-8275462422374771907.post-1638885784806568573
+blogger_orig_url: http://sixtysecondrevit.blogspot.com/2015/03/dynamo-number-revit-sheets-identically.html
+---
+
+<p>Or seemingly identical.</p> <p>Currently in Revit you are not able to number two sheets with the same number. This is regardless of phase, building or any other modifier. You typically have to add something to the number and it then becomes difficult to manage in callouts and other items.</p> <p>There have been discussions around for utilizing unicode characters to solve this problem (a simple google search will show this). There are two problems with this though.</p> <ul> <li>It is time consuming. Right click&gt; insert&gt; select character  <li>It is hidden so other users have no clue!</li></ul> <p>&nbsp;</p> <p>Once again here is where dynamo comes to save the day.</p> <p>My graph that I demonstrate below will renumber the sheets that are named with an asterisk (*) in front to insert this hidden character. After you plot or whatever you can then name it back to the asterisk. This makes it easier to manage and explain to users.</p> <p>Rather than showing them a potentially harmful process of inserting a unicode character, you are just saying,”Insert an asterisk in front of that sheet number and I got the rest.”</p> <p>The video below shows this in action and I included the link for the graph. You have to install Rhythm from the package manager for the graph to work. (Updated 03/27/15)</p><iframe height="315" src="https://www.youtube.com/embed/pQQwFYsOfjY?rel=0" frameborder="0" width="420" allowfullscreen></iframe> <p><a title="http://tiny.cc/zuu5vx" href="http://tiny.cc/zuu5vx">Number Revit Sheets Identically</a></p>  

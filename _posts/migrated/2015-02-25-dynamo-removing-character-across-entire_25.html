@@ -1,0 +1,13 @@
+---
+layout: post
+title: Dynamo - Removing Character Across Entire Sheet Sets *Dynamo Graph Update
+date: '2015-02-25T14:16:00.000-08:00'
+author: JohnP
+tags: 
+modified_time: '2015-02-25T14:16:04.814-08:00'
+thumbnail: http://3.bp.blogspot.com/-FJZxHHMDoOU/VO5I1v1D2CI/AAAAAAAAAAw/4R_50MkgAVc/s72-c/2015-02-25_15h12_13.png
+blogger_id: tag:blogger.com,1999:blog-8275462422374771907.post-846977142231506855
+blogger_orig_url: http://sixtysecondrevit.blogspot.com/2015/02/dynamo-removing-character-across-entire_25.html
+---
+
+I recently posted about how to remove the "-" from an entire sheet set.<br /><a href="http://sixtysecondrevit.blogspot.com/2015/02/dynamo-removing-character-across-entire.html">Refer to this post</a><br /><br />After looking at this some more I updated my method. The problem wit the original version was, it simply deleted the character at index 2 of the string. If you ran this more than once this can be a bit of a problem.<br /><br />This is where my package for dynamo (<a href="http://sixtysecondrevit.blogspot.com/2015/02/rhythm-for-dynamo-released.html">Rhythm</a>) comes in.<br /><br />I added a node in this package called "Get Character At String's Index"<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-FJZxHHMDoOU/VO5I1v1D2CI/AAAAAAAAAAw/4R_50MkgAVc/s1600/2015-02-25_15h12_13.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-FJZxHHMDoOU/VO5I1v1D2CI/AAAAAAAAAAw/4R_50MkgAVc/s1600/2015-02-25_15h12_13.png" height="133" width="320" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: left;"><br /></div>This node is meant to be used with a list.map node and enables you to do things like I have pictured above. It will return the values of the character of a string at the index you want! So now we can filter our selection by sheets that have the infamous dash at index 2 and rename those to the correct convention.<br /><br />-johnp<br /><br />
