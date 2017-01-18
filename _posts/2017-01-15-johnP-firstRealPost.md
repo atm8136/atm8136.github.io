@@ -11,7 +11,7 @@ So, I wanted to take a moment to create my first post utilizing [markdown format
 
 I decided to migrate to this platform for a few reasons,
 
-1. With a lot of change going on right now with my [career](http://sixtysecondrevit.com/aboutme/), I decided it was time for the blog to change as well.
+1. With change going on right now with my [career](http://sixtysecondrevit.com/aboutme/), I decided it was time for the blog to change as well.
 2. This forces me to learn more about GitHub and Markdown formatting.
 3. This awesome [Jekyll template](http://deanattali.com/beautiful-jekyll/) looks amazing.
 
