@@ -13,6 +13,6 @@ I decided to migrate to this platform for a few reasons,
 2. This forces me to learn more about GitHub and Markdown formatting.
 3. This awesome [Jekyll template](http://deanattali.com/beautiful-jekyll/) looks amazing.
 
-Well, there's a quick update. Thank you all for reading my blog the last few years and I hope you will continue this interesting journey with me here at [sixtysecondrevit.com](www.sixtysecondrevit.com)
+Well, there's a quick update. Thank you all for reading my blog the last few years and I hope you will continue this interesting journey with me here at [sixtysecondrevit.com](http://www.sixtysecondrevit.com)
 
 -johnP
