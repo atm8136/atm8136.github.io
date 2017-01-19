@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: '#Revit 2017 Calculated Tags Rock'
 ---
 So I was messing with some model components today and needed a display of dimensions within the component. If you have every tried to tie a parameter to a dimension before, you'd realize tihs doesn't work so great.
