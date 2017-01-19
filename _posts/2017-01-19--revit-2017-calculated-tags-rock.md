@@ -9,7 +9,7 @@ This is what you normaly see.
 /img/hello_world.jpeg
 
 And of course, this is not what I wanted. I wanted it to be clean like this.
-![2017-01-19 16_26_23-Autodesk Revit 2017.1 - [Floor Plan_ Ref. Level - 1259-GenericWorkstation__SW].png]({{site.baseurl}}/img/2017-01-19 16_26_23-Autodesk Revit 2017.1 - [Floor Plan_ Ref. Level - 1259-GenericWorkstation__SW].png)
+!wrong](/img/20170119-displayWrong.png "Wrong")
 
 Well luckily REvit 2017 offers calculated parameters in tags now, and with this we can achieve our result.
 
