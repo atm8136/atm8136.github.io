@@ -4,7 +4,7 @@ tags:
   - revit
 published: true
 title: '#Revit 2017 Calculated Tags Rock'
-image: /img/20170119-calculatedValue.png
+bigimg: /img/20170119-calculatedValue.png
 ---
 So I was messing with some model components today and needed a display of dimensions within the component. If you have ever tried to tie a parameter to a dimension before, you'd realize this doesn't work so great.
 
