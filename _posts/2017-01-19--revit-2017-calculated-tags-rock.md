@@ -5,9 +5,9 @@ tags:
 published: true
 title: '#Revit 2017 Calculated Tags Rock'
 ---
-So I was messing with some model components today and needed a display of dimensions within the component. If you have every tried to tie a parameter to a dimension before, you'd realize tihs doesn't work so great.
+So I was messing with some model components today and needed a display of dimensions within the component. If you have ever tried to tie a parameter to a dimension before, you'd realize this doesn't work so great.
 
-This is what you normaly see.
+This is what you normally see.
 ![wrong](/img/20170119-displayWrong.png "Wrong")
 
 
