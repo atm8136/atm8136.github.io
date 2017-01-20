@@ -1,5 +1,7 @@
 ---
 layout: post
+tags:
+  - revit
 published: false
 title: '#Revit 2017 Calculated Tags Rock'
 ---
