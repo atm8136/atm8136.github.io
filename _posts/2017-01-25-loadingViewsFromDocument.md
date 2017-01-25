@@ -13,7 +13,7 @@ As you can see below we:
 
 2.Get the views, (element types).
 
-3.And finally copying into the open document.
+3.And finally copy into the open document.
 
 
 ![graph](/img/20170125-copyFromDocument.png "Graph")
