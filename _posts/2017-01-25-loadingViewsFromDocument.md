@@ -10,8 +10,10 @@ A [question](https://forum.dynamobim.com/t/insert-from-file-views/9106/4) came u
 As you can see below we:
 
 1.Open the source document in memory, but non visible to user.
+
 2.Get the views, (element types).
-2.And finally copying into the open document.
+
+3.And finally copying into the open document.
 
 
 ![graph](/img/20170125-copyFromDocument.png "Graph")
@@ -23,4 +25,4 @@ Also, here's an animation of it in action!
 Have fun!
 -johnP
 
-###Need a custom solution or workflow? [Contact us](http://www.evolvebim.com/contact) at [EvolveLAB](http://www.evolvebim.com/)! We love to do this stuff!###
+**Need a custom solution or workflow? [Contact us](http://www.evolvebim.com/contact) at [EvolveLAB](http://www.evolvebim.com/)! We love to do this stuff!**
