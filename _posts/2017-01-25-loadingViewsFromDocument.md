@@ -22,6 +22,7 @@ As you can see below we:
 Also, here's an animation of it in action!
 ![gif](/img/20170125-copyViewsFromDocument.gif "Action")
 
+**Edit: after some investigation, it was discovered that this simply copies the view types for now, stay tuned for a new solution.**
 Have fun!
 -johnP
 
