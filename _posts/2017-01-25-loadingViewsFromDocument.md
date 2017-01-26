@@ -28,6 +28,8 @@ Also, here's an animation of it in action!
 * First I illustrate the views and elements in the host file, then I close it out **completely**. 
 * Next, I create a new file to show the loading process.
 
+**I will be posting these nodes to Rhythm later on this week, after I clean them up a bit**
+
 ![better workflow](/img/20170126-copyViewPlusElementsFromFile.gif "Better Workflow")
 
 Have fun!
