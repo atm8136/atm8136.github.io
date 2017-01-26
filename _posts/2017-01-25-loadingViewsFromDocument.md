@@ -23,7 +23,7 @@ Also, here's an animation of it in action!
 ![gif](/img/20170125-copyViewsFromDocument.gif "Action")
 
 <s>**Edit: after some investigation, it was discovered that this simply copies the view types for now, stay tuned for a new solution.**</s>
-**Edit: I am proud to say hat this workflow can now copy the elements as well! See animation below of this new workflow.**
+**Edit: I am proud to say that this workflow can now copy the elements as well! See animation below of this new workflow.**
 
 * First I illustrate the views and elements in the host file, then I close it out **completely**. 
 * Next, I create a new file to show the loading process.
