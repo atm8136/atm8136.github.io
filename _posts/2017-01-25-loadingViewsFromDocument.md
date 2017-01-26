@@ -22,7 +22,10 @@ As you can see below we:
 Also, here's an animation of it in action!
 ![gif](/img/20170125-copyViewsFromDocument.gif "Action")
 
-**Edit: after some investigation, it was discovered that this simply copies the view types for now, stay tuned for a new solution.**
+<s>**Edit: after some investigation, it was discovered that this simply copies the view types for now, stay tuned for a new solution.**</s>
+**Edit: I am proud to say hat this workflow can now copy the elements as well! See animation below of this new workflow.**
+![better workflow](/img/20170126-copyViewPlusElementsFromFile.gif "Better Workflow")
+
 Have fun!
 -johnP
 
