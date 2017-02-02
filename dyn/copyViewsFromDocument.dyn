@@ -1,0 +1,152 @@
+<Workspace Version="1.2.1.3083" X="-525.321567278403" Y="-119.837552681683" zoom="0.899577183476054" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="d9feb692-d553-4326-b305-b14be5f1f511" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Document.BackgroundOpen" x="832.693306277059" y="476.06529186422" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <ID value="972bbaf7-d877-4591-9966-c25fc23e0d61" />
+      <Name value="Document.BackgroundOpen" />
+      <Description value="This will open the input Revit files in the background." />
+      <Inputs>
+        <Input value="filePath" />
+      </Inputs>
+      <Outputs>
+        <Output value="Document" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <CoreNodeModels.Input.Filename guid="269f73c0-f1db-4a95-b8f5-cd66bdc0df67" type="CoreNodeModels.Input.Filename" nickname="File Path" x="549" y="474.5" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false">
+      <System.String>..\insertViewsFromFile\sourceFile.rvt</System.String>
+      <HintPath>C:\Users\johnp\Desktop\insertViewsFromFile\sourceFile.rvt</HintPath>
+    </CoreNodeModels.Input.Filename>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="6cc911d1-ef4f-4fb3-9acf-417f3d48a8e8" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="All Elements of Type in Document" x="1274.57128693396" y="471.086770339449" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <ID value="11a6d7bb-9efe-42f3-9b3b-700b4d61467c" />
+      <Name value="All Elements of Type in Document" />
+      <Description value="All elements of given type in specified document. This works for unopened files and for linked documents." />
+      <Inputs>
+        <Input value="document" />
+        <Input value="element type" />
+      </Inputs>
+      <Outputs>
+        <Output value="elements" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <DSRevitNodesUI.ElementTypes guid="61bed0f9-7767-466d-a7ca-ce919ef5db12" type="DSRevitNodesUI.ElementTypes" nickname="Element Types" x="1083.57128693396" y="560.086770339449" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="True" IsFrozen="false" isPinned="false" index="322:ViewDrafting" />
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="9044ecac-8e31-4273-8800-ba443fa0fe67" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Element.CopyFromDocument" x="1908.18148289872" y="599.245312776739" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <ID value="68f435be-b2a1-475d-8b66-34bd1eaba35e" />
+      <Name value="Element.CopyFromDocument" />
+      <Description value="This node allows you to copy elements from a specific document to your current document." />
+      <Inputs>
+        <Input value="elements" />
+        <Input value="document" />
+      </Inputs>
+      <Outputs>
+        <Output value="copied" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="58216087-9ecf-45a0-a679-0747761ec51f" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="Flatten" x="1544.57128693396" y="471.086770339449" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="BuiltIn" function="Flatten@var[]..[]">
+      <PortInfo index="0" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+    <PythonNodeModels.PythonNode guid="8050d125-1c53-4d6a-89e4-bbeb2e77c6e2" type="PythonNodeModels.PythonNode" nickname="Python Script" x="1781.69347046607" y="754.76734308517" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" inputcount="2">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <Script>#Copyright(c) 2016, Dimitar Venkov
+# @5devene, dimitar.ven@gmail.com
+
+import clr
+
+clr.AddReference("RevitServices")
+import RevitServices
+from RevitServices.Persistence import DocumentManager
+doc = IN[1]
+
+clr.AddReference("RevitAPI")
+from Autodesk.Revit.DB import FilteredElementCollector
+
+clr.AddReference("RevitNodes")
+import Revit
+clr.ImportExtensions(Revit.Elements)
+
+def tolist(obj1):
+	if hasattr(obj1,"__iter__"): return obj1
+	else: return [obj1]
+def output1(l1):
+	if len(l1) == 1: return l1[0]
+	else: return l1
+
+views = UnwrapElement(tolist(IN[0]))
+elements = []
+
+for i in xrange(len(views)):
+	fec = FilteredElementCollector(doc, views[i].Id).WhereElementIsNotElementType().GetElementIterator()
+	fec.Reset()
+	view_el = []
+	while fec.MoveNext():
+		view_el.append(fec.Current.ToDSType(True))
+	elements.append(view_el)
+OUT = output1(elements)</Script>
+    </PythonNodeModels.PythonNode>
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="d74ade5b-944e-4ae9-94f1-65d2fb1e811e" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Element.CopyFromViewToView" x="2269.9842843396" y="489.122874630338" isVisible="true" isUpstreamVisible="true" lacing="Longest" isSelectedInput="False" IsFrozen="false" isPinned="false">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+      <PortInfo index="2" default="False" />
+      <ID value="f03cdb60-dacf-4ccf-8a19-3c2657e2a663" />
+      <Name value="Element.CopyFromViewToView" />
+      <Description value="This will copy elements from view to view." />
+      <Inputs>
+        <Input value="elements" />
+        <Input value="sourceView" />
+        <Input value="destinationView" />
+      </Inputs>
+      <Outputs>
+        <Output value="elements" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="1b5a0ea3-96fc-45f4-95a1-2156d5354ef3" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="1825.05098437875" y="866.713359560544" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="0;" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.ZeroTouch.DSFunction guid="048bc925-8847-49d6-943d-f64c61d7fad4" type="Dynamo.Graph.Nodes.ZeroTouch.DSFunction" nickname="List.RemoveItemAtIndex" x="1955.41309785988" y="753.676070580424" isVisible="true" isUpstreamVisible="true" lacing="Longest" isSelectedInput="False" IsFrozen="false" isPinned="false" assembly="DSCoreNodes.dll" function="DSCore.List.RemoveItemAtIndex@var[]..[],int[]">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="False" />
+    </Dynamo.Graph.Nodes.ZeroTouch.DSFunction>
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="d9feb692-d553-4326-b305-b14be5f1f511" start_index="0" end="6cc911d1-ef4f-4fb3-9acf-417f3d48a8e8" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="d9feb692-d553-4326-b305-b14be5f1f511" start_index="0" end="9044ecac-8e31-4273-8800-ba443fa0fe67" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="d9feb692-d553-4326-b305-b14be5f1f511" start_index="0" end="8050d125-1c53-4d6a-89e4-bbeb2e77c6e2" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="269f73c0-f1db-4a95-b8f5-cd66bdc0df67" start_index="0" end="d9feb692-d553-4326-b305-b14be5f1f511" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="6cc911d1-ef4f-4fb3-9acf-417f3d48a8e8" start_index="0" end="58216087-9ecf-45a0-a679-0747761ec51f" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="61bed0f9-7767-466d-a7ca-ce919ef5db12" start_index="0" end="6cc911d1-ef4f-4fb3-9acf-417f3d48a8e8" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="9044ecac-8e31-4273-8800-ba443fa0fe67" start_index="0" end="d74ade5b-944e-4ae9-94f1-65d2fb1e811e" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="58216087-9ecf-45a0-a679-0747761ec51f" start_index="0" end="9044ecac-8e31-4273-8800-ba443fa0fe67" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="58216087-9ecf-45a0-a679-0747761ec51f" start_index="0" end="d74ade5b-944e-4ae9-94f1-65d2fb1e811e" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="58216087-9ecf-45a0-a679-0747761ec51f" start_index="0" end="8050d125-1c53-4d6a-89e4-bbeb2e77c6e2" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="8050d125-1c53-4d6a-89e4-bbeb2e77c6e2" start_index="0" end="048bc925-8847-49d6-943d-f64c61d7fad4" end_index="0" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="1b5a0ea3-96fc-45f4-95a1-2156d5354ef3" start_index="0" end="048bc925-8847-49d6-943d-f64c61d7fad4" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="048bc925-8847-49d6-943d-f64c61d7fad4" start_index="0" end="d74ade5b-944e-4ae9-94f1-65d2fb1e811e" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="ad5f1785-e588-4ee1-ac12-c7b68ab580c8" annotationText="Opens document in memory, but not visible" left="539" top="444.5" width="524.693306277059" height="124.56529186422" fontSize="14" InitialTop="474.5" InitialHeight="124.56529186422" TextblockHeight="20" backgrouund="#FFD8D8D8">
+      <Models ModelGuid="d9feb692-d553-4326-b305-b14be5f1f511" />
+      <Models ModelGuid="269f73c0-f1db-4a95-b8f5-cd66bdc0df67" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="3a428fba-d6bb-4ae0-a615-1d1a5fb0c80a" annotationText="Collects drafting views from chosen document" left="1073.57128693396" top="441.086770339449" width="655" height="212" fontSize="14" InitialTop="471.086770339449" InitialHeight="212" TextblockHeight="20" backgrouund="#FFD8D8D8">
+      <Models ModelGuid="6cc911d1-ef4f-4fb3-9acf-417f3d48a8e8" />
+      <Models ModelGuid="61bed0f9-7767-466d-a7ca-ce919ef5db12" />
+      <Models ModelGuid="58216087-9ecf-45a0-a679-0747761ec51f" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="eab4e879-7694-45b3-86cd-60c6d0d84232" annotationText="Copies the views into your current document." left="1898.18148289872" top="555.245312776739" width="236" height="163" fontSize="14" InitialTop="599.245312776739" InitialHeight="149" TextblockHeight="34" backgrouund="#FFC1D676">
+      <Models ModelGuid="9044ecac-8e31-4273-8800-ba443fa0fe67" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="a7b20525-a562-450a-b24e-fe6335b723fb" annotationText="This is a modified node from Dimitar (spring nodes)" left="1771.69347046607" top="723.676070580424" width="368.71962739381" height="236.03728898012" fontSize="14" InitialTop="753.676070580424" InitialHeight="236.037288980119" TextblockHeight="20" backgrouund="#FFC1D676">
+      <Models ModelGuid="8050d125-1c53-4d6a-89e4-bbeb2e77c6e2" />
+      <Models ModelGuid="1b5a0ea3-96fc-45f4-95a1-2156d5354ef3" />
+      <Models ModelGuid="048bc925-8847-49d6-943d-f64c61d7fad4" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Background Preview" eyeX="-12.3221607208252" eyeY="102.920822143555" eyeZ="33.278678894043" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>
