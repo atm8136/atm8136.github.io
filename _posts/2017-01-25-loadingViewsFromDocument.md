@@ -32,6 +32,7 @@ Also, here's an animation of it in action!
 
 ![better workflow](/img/20170126-copyViewPlusElementsFromFile.gif "Better Workflow")
 
+Also, here is the DYN. [copyViewsFromDoc](/dyn/copyViewsFromDocument.dyn)
 Have fun!
 -johnP
 
