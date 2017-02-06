@@ -1,0 +1,13 @@
+#google-custom-search {
+2	  margin-top: 50px;
+3	}
+4	
+5	input.gsc-input,
+6	.gsc-input-box,
+7	.gsc-input-box-hover,
+8	.gsc-input-box-focus,
+9	.gsc-search-button,
+10	.gsc-selected-option-container {
+11	  box-sizing: content-box; 
+12	  line-height: normal;
+13	}
