@@ -18,7 +18,7 @@ This is a Dynamo user group that [Carl Storms](https://thebimsider.com/) is star
 
 ![DoE](https://thebimsider.files.wordpress.com/2017/02/doe-logo-hulk.png?w=523&h=239 "DoE")
 
-Find out more about this awesome event, [here](https://thebimsider.com/2017/02/08/the-first-ever-dynamaniacs-of-calgary-doc-meeting-feb-22nd-with-a-presentation-from-john-pierson/)
+Find out more about this awesome event, [here](https://thebimsider.com/2017/02/06/doe-meeting-feb-13th-an-overview-of-dynamo-where-are-we-now-and-where-can-we-going-john-pierson/)
 
 ## Next on the list is a free Dynamo Webinar with my employer EvolveLAB
 
