@@ -25,7 +25,6 @@ description: 60 second tidbits as they relate to software in the AEC industry, w
 navbar-links:
   About Me: "aboutme"
   Stuff I Do:
-    - email = life tshirt: "https://goo.gl/IMlJSl"
     - EvolveLAB: "http://www.evolvebim.com/"
     - Rhythm for Dynamo: "https://github.com/sixtysecondrevit/RhythmForDynamo"
     - Simply Complex Podcast: "http://simplycomplex.sharedcoordinates.com/"
