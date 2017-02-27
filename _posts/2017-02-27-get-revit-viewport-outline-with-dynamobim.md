@@ -1,6 +1,8 @@
 ---
 layout: post
-published: false
+published: true
+tags:
+  - 'revit, rhythm, dynamo, python, EvolveLAB'
 title: 'Get #Revit Viewport Outline with #DynamoBIM'
 ---
 ## Get #Revit Viewport Outline with #DynamoBIM
