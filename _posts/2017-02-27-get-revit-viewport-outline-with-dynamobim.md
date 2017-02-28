@@ -12,7 +12,7 @@ A question came up over at the [EvolveLAB Forums](http://www.evolvebim.com/forum
 ![Viewport.GetBoxOutline.png]({{site.baseurl}}/img/Viewport.GetBoxOutline.png)
 
 
-Considering I wanted to share this node with everyone, it is now vailable in Rhythm. If you are wondering about the workflow graph that was used, that will be available on the [EvolveLAB Blog](http://www.evolvebim.com/blog) shortly.
+Considering I wanted to share this node with everyone, it is now vailable in Rhythm. If you are wondering about the workflow graph that was used, it is available on the [EvolveLAB Blog](http://www.evolvebim.com/forum/community/renumbering-views-on-a-sheet).
 
 Have Fun!
 
