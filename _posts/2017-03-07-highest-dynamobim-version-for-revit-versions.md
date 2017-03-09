@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Highest #DynamoBIM Version for #Revit Versions'
 ---
 ## Highest #DynamoBIM Version for #Revit Versions
