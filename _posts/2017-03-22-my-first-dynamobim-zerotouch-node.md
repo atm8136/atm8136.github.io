@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'My first #DynamoBIM ZeroTouch Node'
 ---
 ## My first #DynamoBIM ZeroTouch Node
