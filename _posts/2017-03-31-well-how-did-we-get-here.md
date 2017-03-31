@@ -1,9 +1,10 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Well, how did we get here?'
 ---
-## _This is a post meant to summarize some of the new happenings with me and Dynamo._
+
+_This is a post meant to summarize some of the new happenings with me and Dynamo._
 
 I first learned how to use Dynamo at Autodesk University 2014 by taking Marcello Sgambelluri’s classes. Before this, Dynamo was very foreign to me. I opened version 0.6.3 once on Revit 2014 and closed it right away because I had no clue where to start.
 
