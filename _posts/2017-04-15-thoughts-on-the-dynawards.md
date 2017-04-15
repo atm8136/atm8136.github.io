@@ -28,8 +28,19 @@ After noticing this tweet, I thought I would do some investigation regarding the
 
 I noticed that this Dynamo package didn't share quite a few characteristics with most of the ones on the list.
 
-1. It was not on dynamonodes.com. DynamoNodes is a community effort started by Luke Johnson to document and share your work. This is a great way to get your pacakge advertised and drum up some support for it.
-2.
+1. It was not on dynamonodes.com. DynamoNodes is a community effort started by Luke Johnson to document and share your work. This is a great way to get your package advertised and drum up some support for it.
+
+2. The creator's general demeanor on social media regarding the "event" leaves a lot to be desired. I believe one of the quotes regarding their vote was **"I'm not endorsing a cartel, so no one"**. 
+
+Referring to the Dynamo community in this way is ridiculous. It's not about the "best" Dynamo package by any means. It's about showing support for people who have helped build this great community.
+
+So, who did I (John Pierson) vote for in the very category that I was part of?
+
+###
+
+My vote is for Clockwork. 
+
+Why? I have learned so much from Andreas. When I began using Dynamo I was very interested in expanding the node library and began dissecting Andreas' awesome work.
 
 
 
