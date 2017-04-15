@@ -36,9 +36,9 @@ Referring to the Dynamo community in this way is ridiculous. It's not about the 
 
 So, who did I (John Pierson) vote for in the very category that I was part of?
 
-##My vote is for Clockwork. 
+#My vote is for Clockwork. 
 
-Why? I have learned so much from Andreas. When I began using Dynamo I was very interested in expanding the node library and began dissecting Andreas' awesome work.
+Why? I have learned so much from Andreas. When I began using Dynamo I was very interested in expanding the node library and began dissecting Andreas' awesome work. It's not a matter of clockwork being the "best" Dynamo package. It was a way of showing recognition to someone who was generous enough to share knowlege to breed the next generation of Dynamo users.
 
 
 
