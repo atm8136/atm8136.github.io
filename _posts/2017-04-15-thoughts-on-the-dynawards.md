@@ -4,7 +4,7 @@ published: true
 tags: 'dynamo'
 title: Thoughts on the DynAwards
 ---
-## Thoughts on the DynAwards
+## Thoughts on the #DynAwards
 
 _This post may be a little different than the norm._
 
