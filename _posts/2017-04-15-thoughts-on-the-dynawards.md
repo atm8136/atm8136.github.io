@@ -25,15 +25,9 @@ Along with this came some mixed feelings. (Below is an excerpt from a tweet sent
 
 ![dynaAwardThoughts.png]({{site.baseurl}}/img/dynaAwardThoughts.png)
 
-After noticing this tweet, I thought I would do some investigation regarding the Dynamo Package I believe the post was referencing, which is a pretty great contribution by the way. _I am leaving all names out on purpose out of respect._
-
-I noticed that this Dynamo package didn't share quite a few characteristics with most of the ones on the list.
-
-1. It was not on dynamonodes.com. DynamoNodes is a community effort started by Luke Johnson to document and share your work. This is a great way to get your package advertised and drum up some support for it.
-
-2. The creator's general demeanor on social media regarding the "event" leaves a lot to be desired. I believe one of the quotes regarding their vote was **"I'm not endorsing a cartel, so no one"**. 
-
-Referring to the Dynamo community in this way is **ridiculous** and **offensive**. It's fine to be upset if something didn;t make the cut, but to say this is simply unprofessional.  It's not about the "best" Dynamo package by any means. It's about showing support for people who have helped build this great community.
+ _I am leaving all names out on purpose out of respect._
+ 
+I understand the frustration behind this comment. It's hard not to get upset when something you wanted didn't get listed. But, one thing to keep in mind is it's not about the "best" Dynamo package by any means. It's about showing support for people who have helped build this great community.
 
 So, who did I, (John Pierson) vote for in the very category that I was part of?
 
