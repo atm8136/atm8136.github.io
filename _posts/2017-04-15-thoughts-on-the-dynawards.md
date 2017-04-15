@@ -1,6 +1,7 @@
 ---
 layout: post
-published: false
+published: true
+tags: 'dynamo'
 title: Thoughts on the DynAwards
 ---
 ## Thoughts on the DynAwards
