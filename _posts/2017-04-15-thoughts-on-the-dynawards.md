@@ -32,11 +32,11 @@ I noticed that this Dynamo package didn't share quite a few characteristics with
 
 2. The creator's general demeanor on social media regarding the "event" leaves a lot to be desired. I believe one of the quotes regarding their vote was **"I'm not endorsing a cartel, so no one"**. 
 
-Referring to the Dynamo community in this way is ridiculous. It's not about the "best" Dynamo package by any means. It's about showing support for people who have helped build this great community.
+Referring to the Dynamo community in this way is **ridiculous** and **offensive**. It's not about the "best" Dynamo package by any means. It's about showing support for people who have helped build this great community.
 
-So, who did I (John Pierson) vote for in the very category that I was part of?
+So, who did I, (John Pierson) vote for in the very category that I was part of?
 
-#My vote is for Clockwork. 
+##My vote is for Clockwork. 
 
 Why? I have learned so much from Andreas. When I began using Dynamo I was very interested in expanding the node library and began dissecting Andreas' awesome work. It's not a matter of clockwork being the "best" Dynamo package. It was a way of showing recognition to someone who was generous enough to share knowlege to breed the next generation of Dynamo users.
 
