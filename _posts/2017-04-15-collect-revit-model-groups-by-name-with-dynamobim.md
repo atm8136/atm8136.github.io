@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 tags:
   - 'revit, rhythm, dynamo, python,'
 title: 'Collect #Revit Model Groups By Name with #DynamoBIM'
