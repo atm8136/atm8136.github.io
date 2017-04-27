@@ -1,9 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 title: Bang! for Dynamo
 ---
-## Bang! for Dynamo
+## Bang! for #DynamoBIM
 
 Well, Revit 2018 came out recently and there were a few exciting API additions. One of these included the ability to access warnings a little easier. As a result of this new ability, I went ahead and published a new Dynamo package called Bang!
 
