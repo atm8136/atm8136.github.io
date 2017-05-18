@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'My #AU2017 Proposals'
 ---
 ## My #AU2017 Proposals
