@@ -13,5 +13,9 @@ And all of these nodes appear in a new bin called "RevitElements".
 
 ![2017-05-31 08_20_21-Dynamo.png]({{site.baseurl}}/img/2017-05-31 08_20_21-Dynamo.png)
 
+And there are a few other revisions based on new OOTB nodes.
+![2017-05-31 13_52_04-Dynamo.png]({{site.baseurl}}/img/2017-05-31 13_52_04-Dynamo.png)
+
+
 Go download the latest version of Rhythm and have fun!
 -johnP
