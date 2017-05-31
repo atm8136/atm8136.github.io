@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: Rhythm for Dynamo Updates
 ---
 ## Rhythm for Dynamo Updates
