@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Get #Revit Crop Region Element with #DynamoBIM'
 ---
 A little while back I posted this clever little trick to obtain the crop region element from a section view.
