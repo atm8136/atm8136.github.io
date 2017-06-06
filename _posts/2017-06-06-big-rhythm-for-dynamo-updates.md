@@ -1,6 +1,8 @@
 ---
 layout: post
 published: true
+tags:
+  - 'revit, rhythm, dynamo, zerotouch,'
 title: Big Rhythm for Dynamo Updates
 ---
 In recent weeks I have been working on migrating a lot of Rhythm nodes to C# for more stability and easier control on my part. Within this effort, I also generated quite a few new nodes. 
