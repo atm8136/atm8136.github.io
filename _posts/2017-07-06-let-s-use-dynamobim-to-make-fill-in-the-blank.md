@@ -16,4 +16,4 @@ Hmm, looks like a great opportunity for Dynamo! Essentially we need a curved sur
 See below for what I came up and the link to the Dynamo graph.
 
 
-![]({{site.baseurl}}/img/2070706-screenWall.gif)![2070706-screenWall.gif]
+![]({{site.baseurl}}/img/2070706-screenWall.gif)
