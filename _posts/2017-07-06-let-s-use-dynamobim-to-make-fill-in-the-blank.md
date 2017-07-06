@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 title: 'Let''s use #DynamoBIM to Make [fill in the blank].'
 ---
 ## [This screen wall at CNM in Albuquerque].
