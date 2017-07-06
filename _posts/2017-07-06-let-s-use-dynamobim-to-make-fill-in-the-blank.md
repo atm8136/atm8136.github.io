@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Let''s use #DynamoBIM to Make [fill in the blank].'
 ---
 ## [This screen wall at CNM in Albuquerque].
@@ -8,6 +8,7 @@ title: 'Let''s use #DynamoBIM to Make [fill in the blank].'
 This is the first post in a series of posts where I create something I have come across in the real world.
 
 Recently, I came accross this cool screen wall at a local college.
+
 ![IMG_1266.JPG]({{site.baseurl}}/img/IMG_1266.JPG)
 
 
