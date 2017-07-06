@@ -18,4 +18,4 @@ See below for what I came up and the link to the Dynamo graph.
 
 ![]({{site.baseurl}}/img/2070706-screenWall.gif)
 
-https://dynamo.autodesk.com/share/595e6816918f9c7865e381b6
+[Customizer](https://dynamo.autodesk.com/share/595e6816918f9c7865e381b6)
