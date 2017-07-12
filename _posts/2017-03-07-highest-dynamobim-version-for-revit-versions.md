@@ -15,6 +15,6 @@ This post is to document the highest Dynamo version that corresponds to a Revit 
 | Revit 2015       | [Dynamo 0.7.1](http://dyn-builds-data.s3-us-west-2.amazonaws.com/DynamoInstall0.7.1.exe) | [Dynamo 1.2.1](http://dyn-builds-data.s3-us-west-2.amazonaws.com/DynamoInstall1.2.1.exe)|
 | Revit 2016       | [Dynamo 0.7.2](http://dyn-builds-data.s3-us-west-2.amazonaws.com/DynamoInstall0.7.2.exe) | [Currently Supported in Latest Daily Builds](http://dynamobuilds.com/)|
 | Revit 2017       | [Dynamo 0.6.1](http://dyn-builds-data.s3-us-west-2.amazonaws.com/DynamoInstall0.9.0.exe) | [Currently Supported in Latest Daily Builds](http://dynamobuilds.com/)|
-| Revit 2018       | [Dynamo 1.3.0](http://dyn-builds-data.s3-us-west-2.amazonaws.com/DynamoInstall1.3.0.exe) | [Currently Supported in Latest Daily Builds](http://dynamobuilds.com/)|a
+| Revit 2018       | [Dynamo 1.3.0](http://dyn-builds-data.s3-us-west-2.amazonaws.com/DynamoInstall1.3.0.exe) | [Currently Supported in Latest Daily Builds](http://dynamobuilds.com/)|
 
 The goal is for this list to evolve as dynamo does.
