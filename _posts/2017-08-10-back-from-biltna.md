@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Back from #BiLTNA'
 ---
 It's been a little bit since my last update so I figured I would go ahead and do one!
