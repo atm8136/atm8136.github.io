@@ -3,6 +3,7 @@ layout: post
 published: true
 title: '#Revit In Place Family Warning Plugin - Status'
 ---
+
 ## #Revit In Place Family Warning Plugin - Status
 
 Hey Everyone,
@@ -20,7 +21,7 @@ This has been a really fun process and has seen some great response! I have also
 **Where are we at now?**
 
 Well, the plugin is all done with a config file for custom password and it runs well, (finally). The only thing left is to sign this thing. If you were not aware code signing is now kind of mandatory for Revit addins to eliminate that super annoying message as seen below.
-
+![signedCOde.png]({{site.baseurl}}/img/signedCOde.png)
 
 
 After some research on Konrad's blog, http://archi-lab.net/code-signing-of-your-revit-plug-ins/, I am finding that I need to invest in one of these fancy certificates. After selecting a vendor, I found out that the cost of this certificate is going to be around $340! Not the easiest thing to soak up when I made this plugin to distribute for free.
@@ -35,4 +36,3 @@ Before I make any decisions, I wanted to see what everyone thinks. (comment belo
 Also, here is the original thread that inspired this.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Now if you can just add the guy from Jurassic Park saying &quot;ah ah ah you didn&#39;t say the magic word!&quot; - and sell that add-in for big $$$</p>&mdash; Nick Kovach (@BOKAP_BIM) <a href="https://twitter.com/BOKAP_BIM/status/900890622499991552">August 25, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
