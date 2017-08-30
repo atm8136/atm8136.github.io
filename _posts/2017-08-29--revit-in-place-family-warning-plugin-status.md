@@ -19,7 +19,9 @@ This has been a really fun process and has seen some great response! I have also
 
 **Where are we at now?**
 
-Well, the plugin is all done with a config file for custom password and it runs well, (finally). The only thing left is to sign this thing. If you were not aware code signing is now kind of mandatory for Revit addins to eliminate that super annoying message as seen above.
+Well, the plugin is all done with a config file for custom password and it runs well, (finally). The only thing left is to sign this thing. If you were not aware code signing is now kind of mandatory for Revit addins to eliminate that super annoying message as seen below.
+
+
 
 After some research on Konrad's blog, http://archi-lab.net/code-signing-of-your-revit-plug-ins/, I am finding that I need to invest in one of these fancy certificates. After selecting a vendor, I found out that the cost of this certificate is going to be around $340! Not the easiest thing to soak up when I made this plugin to distribute for free.
 
