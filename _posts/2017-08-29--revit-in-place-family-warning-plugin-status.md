@@ -32,6 +32,11 @@ So now I am left with two choices.
 2. See if the community wants to help fund this via crowdfunding.
 If you like this idea the link is here https://www.gofundme.com/sixtysecondrevit-code-certificate
 
+If there isn't a lot of desire for the code certificate warning to go away soon, I will just release it as is.
+
+Video of it in action:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IiqVub663aQ" frameborder="0" allowfullscreen></iframe>
+
 Also, here is the original thread that inspired this.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Now if you can just add the guy from Jurassic Park saying &quot;ah ah ah you didn&#39;t say the magic word!&quot; - and sell that add-in for big $$$</p>&mdash; Nick Kovach (@BOKAP_BIM) <a href="https://twitter.com/BOKAP_BIM/status/900890622499991552">August 25, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
