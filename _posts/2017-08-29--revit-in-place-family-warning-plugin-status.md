@@ -26,11 +26,11 @@ Well, the plugin is all done with a config file for custom password and it runs 
 
 After some research on Konrad's blog, http://archi-lab.net/code-signing-of-your-revit-plug-ins/, I am finding that I need to invest in one of these fancy certificates. After selecting a vendor, I found out that the cost of this certificate is going to be around $340! Not the easiest thing to soak up when I made this plugin to distribute for free.
 
-So now I am left with two choices.
-
+~So now I am left with two choices.
 1. Charge for the plugin (something like .99 cents)
-2. See if the community wants to help fund this via crowdfunding.
-If you like this idea the link is here https://www.gofundme.com/sixtysecondrevit-code-certificate
+2. See if the community wants to help fund this via crowdfunding.~
+
+Edit: 20170830- It looks like I can make my own certificate to distribute this tool. Keep an eye out for updates.
 
 If there isn't a lot of desire for the code certificate warning to go away soon, I will just release it as is.
 
