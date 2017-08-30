@@ -30,8 +30,7 @@ So now I am left with two choices.
 
 1. Charge for the plugin (something like .99 cents)
 2. See if the community wants to help fund this via crowdfunding.
-
-Before I make any decisions, I wanted to see what everyone thinks. (comment below or respond on twitter)
+If you like this idea the link is here https://www.gofundme.com/sixtysecondrevit-code-certificate
 
 Also, here is the original thread that inspired this.
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Now if you can just add the guy from Jurassic Park saying &quot;ah ah ah you didn&#39;t say the magic word!&quot; - and sell that add-in for big $$$</p>&mdash; Nick Kovach (@BOKAP_BIM) <a href="https://twitter.com/BOKAP_BIM/status/900890622499991552">August 25, 2017</a></blockquote>
