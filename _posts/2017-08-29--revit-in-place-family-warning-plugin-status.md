@@ -12,7 +12,7 @@ Recently, I have been teasing a plugin that I have been working on in my free ti
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">My <a href="https://twitter.com/hashtag/Revit?src=hash">#Revit</a> In Place Family warning plugin is coming along nicely. 😎 <a href="https://t.co/W6Q6ywOQBA">pic.twitter.com/W6Q6ywOQBA</a></p>&mdash; john pierson (@60secondrevit) <a href="https://twitter.com/60secondrevit/status/901070473752072197">August 25, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-uote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">More progress! Next up, a user configurable text file for the password. 😎 <a href="https://t.co/WLav5WoBP9">pic.twitter.com/WLav5WoBP9</a></p>&mdash; john pierson (@60secondrevit) <a href="https://twitter.com/60secondrevit/status/902672713931677696">August 29, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="en" dir="ltr">More progress! Next up, a user configurable text file for the password. 😎 <a href="https://t.co/WLav5WoBP9">pic.twitter.com/WLav5WoBP9</a></p>&mdash; john pierson (@60secondrevit) <a href="https://twitter.com/60secondrevit/status/902672713931677696">August 29, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 This has been a really fun process and has seen some great response! I have also learned a lot along the way.
