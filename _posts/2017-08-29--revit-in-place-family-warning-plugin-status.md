@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: '#Revit In Place Family Warning Plugin - Status'
 ---
 ## #Revit In Place Family Warning Plugin - Status
