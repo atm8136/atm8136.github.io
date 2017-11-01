@@ -18,3 +18,4 @@ This post is to document the highest Dynamo version that corresponds to a Revit 
 | Revit 2018       | [Dynamo 1.3.0](http://dyn-builds-data.s3-us-west-2.amazonaws.com/DynamoInstall1.3.0.exe) | [Currently Supported in Latest Daily Builds](http://dynamobuilds.com/)|
 
 The goal is for this list to evolve as dynamo does.
+Additionally, this list now exists in the Dynamo primer. http://dynamoprimer.com/en/08_Dynamo-for-Revit/8-1_The-Revit-Connection.html
