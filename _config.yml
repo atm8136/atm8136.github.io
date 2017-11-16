@@ -23,7 +23,7 @@ description: 60 second tidbits as they relate to software in the AEC industry, w
 
 # List of links in the navigation bar
 navbar-links:
-  AU 2017: "https://github.com/sixtysecondrevit/sixtysecondrevit.github.io/blob/master/AU2017.zip"
+  AU 2017: "https://github.com/sixtysecondrevit/sixtysecondrevit.github.io/raw/master/AU2017.zip"
   About Me: "aboutme"
   Stuff I Do:
     - Rhythm for Dynamo: "https://github.com/sixtysecondrevit/RhythmForDynamo"
