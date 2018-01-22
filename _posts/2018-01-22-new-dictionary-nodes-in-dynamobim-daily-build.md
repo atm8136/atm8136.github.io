@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'New Dictionary Nodes in #DynamoBIM Daily Build'
 ---
 ## New Dictionary Nodes in #DynamoBIM Daily Build
