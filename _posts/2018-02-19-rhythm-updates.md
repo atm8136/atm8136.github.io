@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Rhythm Updates
+title: 'Rhythm for #DynamoBIM Updates'
 ---
 ## Rhythm Updates
 
