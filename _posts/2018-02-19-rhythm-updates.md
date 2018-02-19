@@ -25,7 +25,7 @@ That being said, if you run into any "unresolved" or red nodes, you simply need 
 In addition to these core changes, I have added some new nodes and retired a few that were broken. (See the image below)
 ![2018-02-19_14-06-31.png]({{site.baseurl}}/img/2018-02-19_14-06-31.png)
 
-In other news, Jason and I have launched a new MEP-centric Dynamo package called [DuctTape](https://j0hnp.bitbucket.io/ducttape/). I want to thank [Carl Storms](https://thebimsider.com/) for announcing this for us through [Twitter](https://twitter.com/theBIMsider/status/962877361090785280), nothing gets past this guy. :smiley: We will have more details on this soon.
+In other news, Jason and I have launched a new MEP-centric Dynamo package called [DuctTape](https://j0hnp.bitbucket.io/ducttape/). I want to thank [Carl Storms](https://thebimsider.com/) for announcing this for us through [Twitter](https://twitter.com/theBIMsider/status/962877361090785280), nothing gets past this guy. :-) We will have more details on this soon.
 
 And to round out this post, I wanted to mention my new position. Some of you may know this, but I am now a Design Technology Specialist for Parallax. This is exciting because I will be even more engaged in Dynamo development and application development in this role. Be sure to follow Parallax on [twitter](https://twitter.com/PrlxTeam), [LinkedIn](https://www.linkedin.com/company/27245331/) and check out the [website](http://www.parallaxteam.com/) as well!
 
@@ -33,6 +33,3 @@ And to round out this post, I wanted to mention my new position. Some of you may
 -johnP
 
 *the friends I mentioned that helped me out are [Adam](https://twitter.com/Gytaco) (audited my code), [Arthur](https://twitter.com/synthArch) (guidance on migration), and [Konrad](https://twitter.com/arch_laboratory) (generously provides his code as reference).
-
-
-
