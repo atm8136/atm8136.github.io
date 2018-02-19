@@ -3,7 +3,7 @@ layout: post
 published: true
 title: 'Rhythm for #DynamoBIM Updates'
 ---
-## Rhythm Updates
+## Latest version of Rhythm is now 2018.02.19
 
 Hi everyone,
 
