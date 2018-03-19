@@ -35,5 +35,3 @@ Also, here's an animation of it in action!
 Also, here is the DYN. [copyViewsFromDoc](/dyn/copyViewsFromDocument.dyn)
 Have fun!
 -johnP
-
-**Need a custom solution or workflow? [Contact us](http://www.evolvebim.com/contact) at [EvolveLAB](http://www.evolvebim.com/)! We love to do this stuff!**
