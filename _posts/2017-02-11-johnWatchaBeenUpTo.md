@@ -20,15 +20,6 @@ This is a Dynamo user group that [Carl Storms](https://thebimsider.com/) is star
 
 Find out more about this awesome event, [here](https://thebimsider.com/2017/02/06/doe-meeting-feb-13th-an-overview-of-dynamo-where-are-we-now-and-where-can-we-going-john-pierson/)
 
-## Next on the list is a free Dynamo Webinar with my employer EvolveLAB
-
-### Thursday February 16th 2017
-
-This webinar is titled, "Getting the most out of Dynamo Player" and will demonstrate some great UI workflows for Revit with Dynamo Player.
-Be sure to go sign up [here](https://t.co/uxqwHaJyRk)
-
-![evolveLAB](https://static.wixstatic.com/media/1865b4_713e602c4864468fa4295aa5b4856676~mv2.png/v1/fill/w_350,h_80,al_c,usm_0.66_1.00_0.01/1865b4_713e602c4864468fa4295aa5b4856676~mv2.png "evolveLAB")
-
 ## And last but not least is the Dynamaniacs of Calgary meeting
 
 ### Wednesday February 22nd 2017
