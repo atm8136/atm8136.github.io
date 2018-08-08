@@ -23,7 +23,8 @@ description: 60 second tidbits as they relate to software in the AEC industry, w
 
 # List of links in the navigation bar
 navbar-links:
-  AU 2017: "https://github.com/sixtysecondrevit/sixtysecondrevit.github.io/raw/master/AU2017.zip"
+  BiLTNA2018 - 1.3: "https://github.com/sixtysecondrevit/sixtysecondrevit.github.io/blob/master/BILTNA-Session1.3-IShippedMyScripts.zip"
+  BiLTNA2018 - 1.3: "https://github.com/sixtysecondrevit/sixtysecondrevit.github.io/blob/master/BILTNA-Session3.2-AwesomeMethodsForFlexingAndStretchingFamilies.zip"
   About Me: "aboutme"
   Stuff I Do:
     - Rhythm for Dynamo: "https://github.com/sixtysecondrevit/RhythmForDynamo"
