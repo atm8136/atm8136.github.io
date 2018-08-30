@@ -10,7 +10,7 @@ This post is to document the Rhythm version you need for your version of Dynamo.
 
 | Last Supported Dynamo Version | Last Rhythm Version     |
 | ----------------------------- | ----------------------- |
-| Dynamo 2.0.1 | Rhythm v.(tbd) |
+| Dynamo 2.0.1+ | Rhythm v.(tbd) |
 | Dynamo 1.3.3 | Rhythm v.2018.8.30 |
 
 I plan on updating Rhythm for Dynamo 2.0 in the next few weeks as well.
