@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: 'Get the Real Display String Value of #Revit Dimensions'
 ---
 ## Get the Real Display String Value of #Revit Dimensions
