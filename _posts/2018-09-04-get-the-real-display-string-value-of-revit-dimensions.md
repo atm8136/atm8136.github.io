@@ -3,8 +3,6 @@ layout: post
 published: true
 title: 'Get the Real Display String Value of #Revit Dimensions'
 ---
-## Get the Real Display String Value of #Revit Dimensions
-
 Over the long holiday weekend, an interesting discussion came up over on Twitter.
 [https://twitter.com/Twiceroadsfool/status/1035656868084035584]()
 
