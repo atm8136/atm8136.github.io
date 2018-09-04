@@ -2,6 +2,7 @@
 layout: post
 published: true
 title: 'Get the Real Display String Value of #Revit Dimensions'
+date: '2018-09-04'
 ---
 Over the long holiday weekend, an interesting discussion came up over on Twitter.
 [https://twitter.com/Twiceroadsfool/status/1035656868084035584]()
