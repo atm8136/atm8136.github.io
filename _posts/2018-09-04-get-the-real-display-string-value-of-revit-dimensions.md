@@ -13,7 +13,7 @@ Aaron has some serious model audit graphs and one of the next steps is to compar
 
 Well, thankfully the Revit API has a method that _**seems**_ to work for this. This is the ability to obtain the "ValueString" from the dimension.
 
-[https://apidocs.co/apps/revit/2018.2/8608426e-2490-158c-f52b-f79d88f793f6.htm](ValueString Method)
+[ValueString Method](https://apidocs.co/apps/revit/2018.2/8608426e-2490-158c-f52b-f79d88f793f6.htm)
 
 This method has actually been exposed in Rhythm for quite some time now. 
 
