@@ -5,13 +5,15 @@ title: 'Get the Real Display String Value of #Revit Dimensions'
 date: '2018-09-04'
 ---
 Over the long holiday weekend, an interesting discussion came up over on Twitter.
-[https://twitter.com/Twiceroadsfool/status/1035656868084035584]()
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Okay, last <a href="https://twitter.com/DynamoBIM?ref_src=twsrc%5Etfw">@DynamoBIM</a> piece i am missing. Put two objects a distance of 10&#39;-0 7/16&quot; apart. Dimension them, and set the dim style to round to 1/8&quot;, so you see 10&#39;-0 1/2&quot;. How do you get the 10&#39;-0 1/2&quot; in Dynamo?  It always shows the 7/16&quot;, which is correct, but not what i need.</p>&mdash; Aaron Maller (@Twiceroadsfool) <a href="https://twitter.com/Twiceroadsfool/status/1035656868084035584?ref_src=twsrc%5Etfw">August 31, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 Aaron has some serious model audit graphs and one of the next steps is to compare a dimension's displayed string value to what it could (or should) be if it were not rounded.
 
 Well, thankfully the Revit API has a method that _**seems**_ to work for this. This is the ability to obtain the "ValueString" from the dimension.
 
-[https://apidocs.co/apps/revit/2018.2/8608426e-2490-158c-f52b-f79d88f793f6.htm]()
+[https://apidocs.co/apps/revit/2018.2/8608426e-2490-158c-f52b-f79d88f793f6.htm](ValueString Method)
 
 This method has actually been exposed in Rhythm for quite some time now. 
 
