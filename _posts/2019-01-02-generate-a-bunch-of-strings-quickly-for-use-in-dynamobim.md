@@ -13,7 +13,7 @@ Over at Jostein's post he has examples on how to use the custom nodes he made fo
 
 So here it is, the simple graph below shows how to retrieve 45 unique strings from the Star Wars API for downstream use. 
 
-![generateRandomText.png]({{site.baseurl}}/img/generateRandomText.png)
+[![generateRandomText.png]({{site.baseurl}}/img/generateRandomText.png)]({{site.baseurl}}/img/generateRandomText.png)
 
 Have fun and Happy New Year, everyone!
 
