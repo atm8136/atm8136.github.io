@@ -17,7 +17,7 @@ Here are a few below:
 On the surface, some of these things can be looked at as "screwing around" or "a waste of time". This is, in fact, the opposite of how I feel about these explorations. I find that if I am having fun with the thing I am creating I will be more interested and determined to get it done. Along the way, I happen to learn a ton of new things. If you all remember, my journey through Dynamo and programming has been a long one with a lot of frustrations and twists and turns. 😊 The Revit Kid was nice enough to have me as a guest to discuss it, check it out [here](http://therevitkid.blogspot.com/2017/11/another-dynamo-journey-story.html).
 
 As I continue along this journey I am constantly reminded of Rule 17 of ["Pixar's 22 Rules for Great Storytelling"](https://io9.gizmodo.com/5916970/the-22-rules-of-storytelling-according-to-pixar).
-![]({{site.baseurl}}/http://www.newportaoit.org/studentWebpages/2018/lilia_bohensky/17.jpg)
+![](http://www.newportaoit.org/studentWebpages/2018/lilia_bohensky/17.jpg)
 
 Most often when I build something that is for fun, I end up reusing the methods I learned along the way elsewhere. A great example is this one that came up here:
 <blockquote class="twitter-tweet" data-conversation="none" data-lang="en"><p lang="und" dir="ltr">😎 <a href="https://t.co/p3DT4dvyMW">pic.twitter.com/p3DT4dvyMW</a></p>&mdash; john pierson 🤡🎈 (@60secondrevit) <a href="https://twitter.com/60secondrevit/status/1086277345332289537?ref_src=twsrc%5Etfw">January 18, 2019</a></blockquote>
