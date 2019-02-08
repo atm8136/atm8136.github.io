@@ -1,17 +1,19 @@
 ---
 layout: post
-published: false
+published: true
 title: Bang! for Dynamo Updates
 ---
 As you all may know, I really like to hack at Dynamo.
 
-Currently, I manage 3 Dynamo packages that are available on the package manager.
+Currently, I manage 4 Dynamo packages that are available on the package manager.
 
 The first is Rhythm which has been around since 2015 and has evolved into a pretty hefty C# zero touch package, They grow up so fast. 😥
 
 Second is Bang, which was released shortly after the Revit 2018.1 update that made the warnings API available to us.
 
-And third is Monocle, which was discussed [here](http://www.parallaxteam.com/monocle-for-dynamo-released/).
+Third is Monocle, which was discussed [here](http://www.parallaxteam.com/monocle-for-dynamo-released/).
+
+And fourth is DuctTape, which needs some serious updating!
 
 Over the years I have had a ton of fun developing these free packages and have received a lot of great feedback and support. One of the common ways people reach out regarding these free packages is the [Dynamo Forum](https://forum.dynamobim.com/). 
 
