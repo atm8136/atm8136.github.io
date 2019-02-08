@@ -9,7 +9,7 @@ Currently, I manage 4 Dynamo packages that are available on the package manager.
 
 The first is Rhythm which has been around since 2015 and has evolved into a pretty hefty C# zero touch package, They grow up so fast. 😥
 
-Second is Bang, which was released shortly after the Revit 2018.1 update that made the warnings API available to us.
+Second is Bang, which was released shortly after Revit 2018 was released. (Revit 2018 made the warnings API available to us.)
 
 Third is Monocle, which was discussed [here](http://www.parallaxteam.com/monocle-for-dynamo-released/).
 
