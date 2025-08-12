@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://johnpierson.github.io"
-baseurl: ""
+url: "http://atm8136.github.io"
+baseurl: "/test"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: sixtysecondrevit
+title: test
 
 # Short description of your site
 description: 60 second tidbits as they relate to software in the AEC industry, with a heavy focus on Dynamo and Revit.
@@ -24,7 +24,7 @@ description: 60 second tidbits as they relate to software in the AEC industry, w
 # List of links in the navigation bar
 navbar-links:
   AU2018:
-    - Dynamo Python Hands-On Lab: "https://github.com/johnpierson/johnpierson.github.io/blob/master/AU2018-PythonLab.zip"
+    - Dynamo Python Hands-On Lab: "https://github.com/atm8136/atm8136.github.io/blob/master/AU2018-PythonLab.zip"
   About Me: "aboutme"
   Stuff I Do:
     - Rhythm for Dynamo: "https://github.com/sixtysecondrevit/RhythmForDynamo"
@@ -49,37 +49,37 @@ avatar: "/img/Icon-Large-01.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: John Pierson
-  email: "sixtysecondrevit@gmail.com"
-  facebook: "yourname"  # eg. daattali
-  github: "sixtysecondrevit"
-  twitter: "@60secondrevit"
-  reddit: yourname    # eg. daattali
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: "john-pierson-2a43b677"
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
+  name: Andrew McClelland
+  email: "atm8136@gmail.com"
+  facebook: "Andrew McClelland"  # eg. daattali
+  github: "atm8136"
+  twitter: ""
+  reddit: atm8136    # eg. daattali
+  google-plus: +atm8136   # eg. +DeanAttali or 109424658772469020925
+  linkedin: "Andrew-McClelland"
+  xing: andrewmcclelland      # eg. daattali
+  stackoverflow: nolink  # eg. "3943160/daattali"
+  snapchat: drew8136  # eg. daattali
+  instagram: atm8136 # eg. daattali
+  youtube: atm8136   # eg. user/daattali or channel/daattali
+  spotify: notonspotify   # eg. daattali
+  telephone: youdontneedit   # eg. +14159998888
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
-  facebook: false
+  rss: true
+  facebook: true
   email: true
   twitter: true
   google-plus: false
   github: true
-  reddit: false
+  reddit: true
   linkedin: true
   xing: true
   stackoverflow: false
-  snapchat: false
-  instagram: false
-  youtube: false
+  snapchat: true
+  instagram: true
+  youtube: true
   spotify: false
   telephone: false
 
@@ -87,16 +87,16 @@ footer-links-active:
 share-links-active:
   twitter: true
   facebook: true
-  google: false
+  google: true
   linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "sixtysecondrevit.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "atm8136.github.io"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: sixtysecondrevit-github-io
+disqus: atm8136-github-io
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-90414944-1"
