@@ -30,7 +30,7 @@ Auto-tagged with parameters for quick checking.
 Ready for schedules, presentations, or “designer mood board” style layouts.
 
 
-🖼️ Why This Script is a Game-Changer
+Why This Script is a Game-Changer
 Instead of manually creating 50 carpet finishes, 30 paint colors, and 20 countertop laminates (😱), you hit run once and let Dynamo handle the heavy lifting. The swatch generator not only speeds up workflows, but also gives you a visual design palette that teams can review together—perfect for presentations, client check-ins, or just keeping sanity intact.
 
 Think of it as your automated finish board, but inside Revit.
