@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://johnpierson.github.io"
+url: "http://atm8136.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,17 +14,18 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: sixtysecondrevit
+title: DebuggedDesign
 
 # Short description of your site
-description: 60 second tidbits as they relate to software in the AEC industry, with a heavy focus on Dynamo and Revit.
+description: DebuggedDesign isn’t just a blog—it’s my personal trail of breadcrumbs as I try to untangle the wild world of Dynamo, custom Revit-API/SDK tools, Python, C#, and whatever other shiny things I stumble across. I’m teaching myself (sometimes gracefully, sometimes chaotically) how to bend design tools to my will. Along the way, I’ll be documenting everything: the scripts that work, the ones that spectacularly crash, the weird side-quests into AI, generative design, ML, LLMs, DesignScript, TypeScript, and whatever else catches my curiosity.
+This space is as much about organizing my mess—currently spread across 3 or 4 computers and countless half-finished files—as it is about sharing what I learn. I want this to become my go-to archive of references, tools, workflows, and resources… but also a place where others can drop in, steal an idea, and maybe avoid the same headaches I ran into. At the end of the day, this is my sandbox. Some posts will be experiments, others will be victories, and plenty will be “note-to-self” style reminders. But the bigger picture? To sharpen skills, build faster, and make design tech a little more fun, a little less frustrating, and a whole lot more collaborative.
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
 navbar-links:
   AU2018:
-    - Dynamo Python Hands-On Lab: "https://github.com/johnpierson/johnpierson.github.io/blob/master/AU2018-PythonLab.zip"
+    - Dynamo Python Hands-On Lab: "https://github.com/atm8136/atm8136.github.io/blob/master/AU2018-PythonLab.zip"
   About Me: "aboutme"
   Stuff I Do:
     - Rhythm for Dynamo: "https://github.com/sixtysecondrevit/RhythmForDynamo"
@@ -49,21 +50,21 @@ avatar: "/img/Icon-Large-01.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: John Pierson
-  email: "sixtysecondrevit@gmail.com"
-  facebook: "yourname"  # eg. daattali
-  github: "sixtysecondrevit"
-  twitter: "@60secondrevit"
-  reddit: yourname    # eg. daattali
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: "john-pierson-2a43b677"
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
+  name: Andrew McClelland
+  email: "atm8136@gmail.com"
+  facebook: "AndrewMcClelland"  # eg. daattali
+  github: "DebuggedDesigner"
+  twitter: "@debuggeddesigner"
+  reddit: atm8136    # eg. daattali
+  google-plus: +atm8136   # eg. +DeanAttali or 109424658772469020925
+  linkedin: "andrew-mcclelland-"
+  xing: andrewmcclelland      # eg. daattali
+  stackoverflow: atm8136  # eg. "3943160/daattali"
+  snapchat: andrew8136  # eg. daattali
+  instagram: AndrewMcClelland # eg. daattali
+  youtube: atm8136   # eg. user/daattali or channel/daattali
+  spotify: andrew.mcclelland   # eg. daattali
+  telephone:    # eg. +14159998888
 
 # Select which links to show in the footer
 footer-links-active:
@@ -92,11 +93,11 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "sixtysecondrevit.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "DebuggedDesigner.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: sixtysecondrevit-github-io
+disqus: DebuggedDesigner-github-io
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-90414944-1"
