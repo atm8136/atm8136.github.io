@@ -1,33 +1,55 @@
 ---
 layout: post
 published: true
-title: Bang! for Dynamo Updates
+title: 🎨 Dynamo Script Spotlight: The Materials & Finishes Swatch Generator
 ---
-As you all may know, I really like to hack at Dynamo.
+If you’ve ever tried wrangling materials and finishes in Revit, you know the drill: it’s a mix of tedious clicks, endless parameter filling, and the occasional “where the heck did that material go?” moment.
 
-Currently, I manage 4 Dynamo packages that are available on the package manager.
+So I built myself a Dynamo sidekick: The Swatch Generator Script 🪄
+This script takes a simple input (yep, even just an Excel sheet with finishes listed) and does the heavy lifting of:
+✅ Creating materials in Revit directly from structured data
+✅ Filling in parameters like Function, Mark, Category, Name, Description, Width, Length, Thickness, Manufacturer, Color Number, Color Name, Finish, URL
+✅ Assigning swatches so you can actually see the palette instead of just squinting at text values
+✅ Keeping everything consistent, organized, and repeatable across projects
 
-The first is Rhythm which has been around since 2015 and has evolved into a pretty hefty C# zero touch package, They grow up so fast. 😥
+In short: it turns a spreadsheet of chaos into a living materials library inside your model.
 
-Second is Bang, which was released shortly after Revit 2018 was released. (Revit 2018 made the warnings API available to us.)
+⚙️ How It Works
+The Inputs
+An Excel file (or CSV) with material data structured into columns.
+Swatch images can be linked by file path or URL.
+The Dynamo Graph
+Reads each row of data.
+Creates a new Revit material (or updates if it already exists).
+Populates all the chosen parameters automatically.
+Generates a swatch preview panel right in the project for visual QA.
 
-Third is Monocle, which was discussed [here](http://www.parallaxteam.com/monocle-for-dynamo-released/).
+The Output
+A neat grid of material swatches in Revit views.
+Auto-tagged with parameters for quick checking.
+Ready for schedules, presentations, or “designer mood board” style layouts.
 
-And fourth is DuctTape, which needs some serious updating!
 
-Over the years I have had a ton of fun developing these free packages and have received a lot of great feedback and support. One of the common ways people reach out regarding these free packages is the [Dynamo Forum](https://forum.dynamobim.com/). 
+🖼️ Why This Script is a Game-Changer
+Instead of manually creating 50 carpet finishes, 30 paint colors, and 20 countertop laminates (😱), you hit run once and let Dynamo handle the heavy lifting. The swatch generator not only speeds up workflows, but also gives you a visual design palette that teams can review together—perfect for presentations, client check-ins, or just keeping sanity intact.
 
-Recently, on the forum some of the users [alerted me](https://forum.dynamobim.com/t/bang-for-dynamo-update/25666/21) that an old node (from Bang) would be valuable to have access to once again. These comments lead to a new update to add it back to the package along with a few additional changes.
+Think of it as your automated finish board, but inside Revit.
 
-Now in Bang version 2019.2.6, we have access to an old node and have new cool icons. 😎
 
-![2019-02-06_7-30-13.png]({{site.baseurl}}/img/2019-02-06_7-30-13.png)
+🌟 The Fun Part
+What I love most is that this isn’t just “automation for the sake of automation.” It’s creative leverage. When you can generate, swap, or rebuild entire finish palettes with a couple of clicks, you free yourself up to actually design, experiment with options, and explore concepts without drowning in repetitive tasks.
 
-In addition to this, I am pleased to say that Bang is now open sourced as well.
+Plus, it feels like Dynamo is your design assistant—the kind that doesn’t complain about making 100 swatches in a row.
 
-The repository for this Dynamo package is located here, [Bang! for Dynamo](https://github.com/johnpierson/BangForDynamo). 
+👀 What’s Next?
+I’m already thinking about the next iteration:
+Hooking this up to manufacturer websites so the script can scrape and import directly from product libraries
+Adding color-coding logic for adjacency diagrams (materials tied to spaces!)
+Linking into spec databases so the Revit model isn’t just pretty—it’s spec-ready
 
-If you have anything to contribute to the package, please feel free to do so at that resource and thanks to everyone for appreciating the nodes!
+Stay tuned. The swatch generator was just the warm-up.
 
--john
+💡 Have you tried building a material workflow in Dynamo before? Did it make your life easier, or just give you new headaches? Drop your war stories—I’d love to compare notes!
+
+-DebuggedDesigner
 
